@@ -43,8 +43,7 @@ const Contact = () => {
               <div className="info-item">
                 <div className="icon-wrap"><Phone className="text-accent" /></div>
                 <div>
-                  <h4>Call Us</h4>
-                  <p>0861 233 2233</p>
+                  <p>8612332233</p>
                 </div>
               </div>
               
@@ -64,10 +63,10 @@ const Contact = () => {
             </div>
 
             <div className="action-buttons">
-              <a href="https://maps.google.com" target="_blank" rel="noreferrer" className="btn btn-primary">
+              <a href="https://www.google.com/maps/place/Hotel+Shubham/@14.4563637,79.9875603,17z/data=!3m1!4b1!4m6!3m5!1s0x3a4c8dc20fc88dfd:0xe4a54fc2961e0ca5!8m2!3d14.4563637!4d79.9901352!16s%2Fg%2F11sl16nstz" target="_blank" rel="noreferrer" className="btn btn-primary">
                 <Navigation size={18} style={{marginRight: '8px'}} /> Get Directions
               </a>
-              <a href="https://wa.me/910000000000" target="_blank" rel="noreferrer" className="btn btn-whatsapp">
+              <a href="https://wa.me/918612332233" target="_blank" rel="noreferrer" className="btn btn-whatsapp">
                 <MessageCircle size={18} style={{marginRight: '8px'}} /> WhatsApp Us
               </a>
             </div>
@@ -82,7 +81,7 @@ const Contact = () => {
           >
             {/* Embedded Google Map pointing to Nellore. Using a standard iframe embed with Nellore coords */}
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15444.604217112003!2d79.9839!3d14.4426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4c8cb4e76ea023%3A0x6bbaecae84fc63!2sNellore%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1703248324831!5m2!1sen!2sin" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.151054363234!2d79.987560315!3d14.4563637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4c8dc20fc88dfd%3A0xe4a54fc2961e0ca5!2sHotel%20Shubham!5e0!3m2!1sen!2sin!4v1703248324831!5m2!1sen!2sin" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 

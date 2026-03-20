@@ -47,7 +47,7 @@ const Footer = () => {
           <h3>Contact Us</h3>
           <div className="contact-item">
             <Phone size={18} className="text-accent" />
-            <span>0861 233 2233</span>
+            <span>8612332233</span>
           </div>
           <div className="contact-item">
             <MapPin size={18} className="text-accent"/>
