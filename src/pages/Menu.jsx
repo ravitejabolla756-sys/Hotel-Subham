@@ -16,11 +16,11 @@ const menuData = [
   { id: 2, name: "Chicken Curry (Boneless)", price: "₹260", category: "Indian Curries", diet: "non-veg", img: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=400&h=400&auto=format&fit=crop" },
   { id: 3, name: "Kadai Chicken", price: "₹280", category: "Indian Curries", diet: "non-veg", tags: ["Spicy"], desc: "Cooked with bell peppers and whole spices.", img: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=400&h=400&auto=format&fit=crop" },
   { id: 4, name: "Mutton Curry", price: "₹340", category: "Indian Curries", diet: "non-veg", img: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=400&h=400&auto=format&fit=crop" },
-  { id: 5, name: "Fish Curry", price: "₹300", category: "Indian Curries", diet: "non-veg", desc: "Authentic coastal style fish curry.", img: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=400&h=400&auto=format&fit=crop" },
+  { id: 5, name: "Fish Curry", price: "₹300", category: "Indian Curries", diet: "non-veg", desc: "Authentic coastal style fish curry.", img: "https://images.unsplash.com/photo-1534948665115-46f33206a101?q=80&w=400&h=400&auto=format&fit=crop" },
   { id: 6, name: "Prawns Curry", price: "₹340", category: "Indian Curries", diet: "non-veg", img: "https://images.unsplash.com/photo-1559742811-822873691df8?q=80&w=400&h=400&auto=format&fit=crop" },
   
   // Indian Curries (Veg)
-  { id: 7, name: "Paneer Butter Masala", price: "₹200", category: "Indian Curries", diet: "veg", tags: ["Best Seller"], img: "https://images.unsplash.com/photo-1690580560015-73c6b2d74eb8?q=80&w=400&h=400&auto=format&fit=crop" },
+  { id: 7, name: "Paneer Butter Masala", price: "₹200", category: "Indian Curries", diet: "veg", tags: ["Best Seller"], img: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=400&h=400&auto=format&fit=crop" },
   { id: 8, name: "Kadai Paneer", price: "₹220", category: "Indian Curries", diet: "veg", tags: ["Spicy"], img: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=400&h=400&auto=format&fit=crop" },
   { id: 9, name: "Mushroom Masala", price: "₹180", category: "Indian Curries", diet: "veg", img: "https://images.unsplash.com/photo-1582576163090-09d3b6f8a969?q=80&w=400&h=400&auto=format&fit=crop" },
   { id: 10, name: "Dal Tadka", price: "₹160", category: "Indian Curries", diet: "veg", img: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=400&h=400&auto=format&fit=crop" },
@@ -29,8 +29,8 @@ const menuData = [
   // Andhra Specials
   { id: 12, name: "Andhra Chicken Curry", price: "₹220", category: "Andhra Specials", diet: "non-veg", tags: ["Spicy", "Popular"], img: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=400&h=400&auto=format&fit=crop" },
   { id: 13, name: "Natukodi Curry", price: "₹280", category: "Andhra Specials", diet: "non-veg", tags: ["Specials"], desc: "Traditional country chicken curry.", img: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=400&h=400&auto=format&fit=crop" },
-  { id: 14, name: "Mutton Fry", price: "₹350", category: "Andhra Specials", diet: "non-veg", tags: ["Best Seller"], img: "https://images.unsplash.com/photo-1604152135912-04a022e23696?q=80&w=400&h=400&auto=format&fit=crop" },
-  { id: 15, name: "Fish Fry", price: "₹220", category: "Andhra Specials", diet: "non-veg", img: "https://images.unsplash.com/photo-1574484284002-952d92456975?q=80&w=400&h=400&auto=format&fit=crop" },
+  { id: 14, name: "Mutton Fry", price: "₹350", category: "Andhra Specials", diet: "non-veg", tags: ["Best Seller"], img: "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=400&h=400&auto=format&fit=crop" },
+  { id: 15, name: "Fish Fry", price: "₹220", category: "Andhra Specials", diet: "non-veg", img: "https://images.unsplash.com/photo-1599084929471-65d13711ba0b?q=80&w=400&h=400&auto=format&fit=crop" },
   { id: 16, name: "Egg Curry", price: "₹80", category: "Andhra Specials", diet: "non-veg", img: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=400&h=400&auto=format&fit=crop" },
 
   // Tiffins
