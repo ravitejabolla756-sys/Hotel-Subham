@@ -1,0 +1,156 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem 5%;
+  transition: all 0.4s ease;
+  z-index: 1000;
+  background: transparent;
+}
+
+.navbar.scrolled {
+  background: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 1rem 5%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.brand-emblem {
+  color: var(--accent);
+  width: 42px;
+  height: 42px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-text h2 {
+  font-family: var(--font-logo, 'Cinzel', serif);
+  color: var(--accent);
+  margin: 0;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.logo-text span {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+  opacity: 0.9;
+  display: block;
+  margin-top: 4px;
+}
+
+.desktop-menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: var(--accent);
+}
+
+.nav-link:hover::after, .nav-link.active::after {
+  width: 100%;
+}
+
+.order-btn {
+  border-radius: 30px;
+  padding: 0.6rem 1.5rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.mobile-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: var(--bg-dark);
+  padding: 2rem 5%;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.mobile-link {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.mobile-link.active {
+  color: var(--accent);
+}
+
+@media (max-width: 900px) {
+  .desktop-menu {
+    display: none;
+  }
+  .mobile-toggle {
+    display: block;
+  }
+  .mobile-menu.open {
+    display: flex;
+  }
+}

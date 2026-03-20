@@ -1,0 +1,113 @@
+.footer {
+  background-color: #050505;
+  padding: 5rem 5% 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 4rem;
+  margin-bottom: 4rem;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-logo .brand-emblem {
+  color: var(--accent);
+  width: 48px;
+  height: 48px;
+}
+
+.footer-logo .logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo .logo-text h2 {
+  font-family: var(--font-logo, 'Cinzel', serif);
+  color: var(--accent);
+  margin: 0;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.footer-logo .logo-text span {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+  opacity: 0.9;
+  display: block;
+  margin-top: 4px;
+}
+
+.brand-col p {
+  color: var(--text-gray);
+  max-width: 350px;
+  margin-bottom: 1.5rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.social-icons a:hover {
+  background: var(--accent);
+  color: var(--bg-dark);
+}
+
+.footer-col h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  font-family: var(--font-body);
+}
+
+.footer-col a, .contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--text-gray);
+  margin-bottom: 1rem;
+  transition: color 0.3s;
+}
+
+.footer-col a:hover {
+  color: var(--accent);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  color: #666;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}

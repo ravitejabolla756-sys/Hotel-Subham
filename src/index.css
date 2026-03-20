@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary: #8B0000;
+  --primary-hover: #b30000;
+  --accent: #D4AF37;
+  --accent-hover: #f1c944;
+  --bg-dark: #0a0a0a;
+  --bg-light: #fafafa;
+  --bg-card: #151515;
+  --text-light: #ffffff;
+  --text-gray: #a0a0a0;
+  --text-dark: #222222;
+  
+  --font-logo: 'Cinzel', serif;
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Base button styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+}
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-2px);
+}
+
+.btn-accent {
+  background-color: var(--accent);
+  color: var(--bg-dark);
+}
+.btn-accent:hover {
+  background-color: var(--accent-hover);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+}
+.btn-outline:hover {
+  background-color: var(--accent);
+  color: var(--bg-dark);
+}
+
+/* Sections */
+section {
+  padding: 5rem 5%;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--accent);
+}
+
+/* Utilities */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+/* Smooth reveal class used for framer motion variants if needed manually */
+.glass {
+  background: rgba(20, 20, 20, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Fix for scrolling with lenis */
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
