@@ -29,7 +29,7 @@ const menuData = [
   // Andhra Specials
   { id: 12, name: "Andhra Chicken Curry", price: "₹220", category: "Andhra Specials", diet: "non-veg", tags: ["Spicy", "Popular"], img: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=400&h=400&auto=format&fit=crop" },
   { id: 13, name: "Natukodi Curry", price: "₹280", category: "Andhra Specials", diet: "non-veg", tags: ["Specials"], desc: "Traditional country chicken curry.", img: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=400&h=400&auto=format&fit=crop" },
-  { id: 14, name: "Mutton Fry", price: "₹350", category: "Andhra Specials", diet: "non-veg", tags: ["Best Seller"], img: "https://images.unsplash.com/photo-1603894584373-5ac22b4cb613?q=80&w=400&h=400&auto=format&fit=crop" },
+  { id: 14, name: "Mutton Fry", price: "₹350", category: "Andhra Specials", diet: "non-veg", tags: ["Best Seller"], img: "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=400&h=400&auto=format&fit=crop" },
   { id: 15, name: "Fish Fry", price: "₹220", category: "Andhra Specials", diet: "non-veg", img: "https://images.unsplash.com/photo-1599084929471-65d13711ba0b?q=80&w=400&h=400&auto=format&fit=crop" },
   { id: 16, name: "Egg Curry", price: "₹80", category: "Andhra Specials", diet: "non-veg", img: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=400&h=400&auto=format&fit=crop" },
 

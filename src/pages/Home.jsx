@@ -85,7 +85,7 @@ const Home = () => {
           <div className="dishes-grid">
             {[
               { name: "Andhra Chicken Curry", price: "₹220", img: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=800&auto=format&fit=crop" },
-              { name: "Mutton Fry Special", price: "₹350", img: "https://images.unsplash.com/photo-1603894584373-5ac22b4cb613?q=80&w=800&auto=format&fit=crop" },
+              { name: "Mutton Fry Special", price: "₹350", img: "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop" },
               { name: "Paneer Butter Masala", price: "₹200", img: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=800&auto=format&fit=crop" }
             ].map((dish, i) => (
               <motion.div 
