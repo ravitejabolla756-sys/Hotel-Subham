@@ -16,7 +16,7 @@ const menuData = [
   { id: 2, name: "Chicken Curry (Boneless)", price: "₹260", category: "Indian Curries", diet: "non-veg", img: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=400&h=400&auto=format&fit=crop" },
   { id: 3, name: "Kadai Chicken", price: "₹280", category: "Indian Curries", diet: "non-veg", tags: ["Spicy"], desc: "Cooked with bell peppers and whole spices.", img: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=400&h=400&auto=format&fit=crop" },
   { id: 4, name: "Mutton Curry", price: "₹340", category: "Indian Curries", diet: "non-veg", img: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=400&h=400&auto=format&fit=crop" },
-  { id: 5, name: "Fish Curry", price: "₹300", category: "Indian Curries", diet: "non-veg", desc: "Authentic coastal style fish curry.", img: "https://images.unsplash.com/photo-1534948665115-46f33206a101?q=80&w=400&h=400&auto=format&fit=crop" },
+  { id: 5, name: "Fish Curry", price: "₹300", category: "Indian Curries", diet: "non-veg", desc: "Authentic coastal style fish curry.", img: "https://images.unsplash.com/photo-1620894580123-466ad3a0ca06?auto=format&fit=crop&q=80&w=1000" },
   { id: 6, name: "Prawns Curry", price: "₹340", category: "Indian Curries", diet: "non-veg", img: "https://images.unsplash.com/photo-1559742811-822873691df8?q=80&w=400&h=400&auto=format&fit=crop" },
   
   // Indian Curries (Veg)
@@ -30,7 +30,7 @@ const menuData = [
   { id: 12, name: "Andhra Chicken Curry", price: "₹220", category: "Andhra Specials", diet: "non-veg", tags: ["Spicy", "Popular"], img: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=400&h=400&auto=format&fit=crop" },
   { id: 13, name: "Natukodi Curry", price: "₹280", category: "Andhra Specials", diet: "non-veg", tags: ["Specials"], desc: "Traditional country chicken curry.", img: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=400&h=400&auto=format&fit=crop" },
   { id: 14, name: "Mutton Fry", price: "₹350", category: "Andhra Specials", diet: "non-veg", tags: ["Best Seller"], img: "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=400&h=400&auto=format&fit=crop" },
-  { id: 15, name: "Fish Fry", price: "₹220", category: "Andhra Specials", diet: "non-veg", img: "https://images.unsplash.com/photo-1599084929471-65d13711ba0b?q=80&w=400&h=400&auto=format&fit=crop" },
+  { id: 15, name: "Fish Fry", price: "₹220", category: "Andhra Specials", diet: "non-veg", img: "https://images.unsplash.com/photo-1765265432607-cdc1060294ba?auto=format&fit=crop&q=80&w=1000" },
   { id: 16, name: "Egg Curry", price: "₹80", category: "Andhra Specials", diet: "non-veg", img: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=400&h=400&auto=format&fit=crop" },
 
   // Tiffins
